@@ -33,6 +33,10 @@ nav a:hover {
     background-color: #01173b;
 }
 
+nav a:active {
+    background-color: #001D4C;
+}
+
 .nav-rgt {
     display: flex;
     flex-direction: row;
@@ -50,24 +54,17 @@ nav a:hover {
     border: white 1px solid;
     background-color: #001D4C;
     color: white;
-    width: 125px;
-    height: 35px;
-}
-
-.accelerate-btn:active {
-    border: white 1px solid;
-    background-color: #01173b;
-    color: white;
+    cursor: pointer;
     width: 125px;
     height: 35px;
 }
 
 .accelerate-btn:hover {
-    border: white 1px solid;
     background-color: #01173b;
-    color: white;
-    width: 125px;
-    height: 35px;
+}
+
+.accelerate-btn:active {
+    background-color: #001D4C;
 }
 
 .dropdown-nav {
@@ -110,6 +107,10 @@ nav a:hover {
 
 .dropdown-content-nav a:hover {
     background-color: #01173b;
+}
+
+.dropdown-content-nav a:active {
+    background-color: #001D4C;
 }
 
 .dropdown-nav:hover .dropdown-content-nav {
@@ -169,6 +170,10 @@ nav a:hover {
 
 .dropdown-content-nav-2 a:hover {
     background-color: #01173b;
+}
+
+.dropdown-content-nav-2 a:active {
+    background-color: #001D4C;
 }
 
 .dropdown-nav-2:hover .dropdown-content-nav-2 {
